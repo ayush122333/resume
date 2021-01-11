@@ -1,0 +1,75 @@
+/* utility classes                    */
+
+.h-prim {
+  font-size: 2.1rem;
+  padding: 36px;
+}
+.para {
+  font-size: 1.7rem;
+}
+.h-secondary {
+  font-size: 1.9rem;
+}
+.cont {
+  padding: 24px 0px;
+}
+
+/*                                            */
+
+#about {
+  height: 500px;
+  flex-direction: column;
+}
+#about::before {
+  height: 500px;
+}
+#about img {
+  display: none;
+}
+#intro {
+  font-size: 0.9rem;
+  display: flex;
+  text-align: justify;
+}
+#educ-qual {
+  height: 520px;
+}
+#educ-qual::before {
+  height: 520px;
+}
+.tab {
+  font-size: 0.8rem;
+}
+.flex-cont {
+  padding: 65px 20px 0px 0px;
+  font-size: 1rem;
+}
+#certi img {
+  height: 224px;
+  width: 300px;
+}
+
+#projects {
+  height: 300px;
+}
+#projects::before {
+  height: 300px;
+}
+
+#project-table {
+  display: none;
+}
+#mob {
+  display: block;
+  font-size: 11px;
+  height: 150px;
+}
+
+#mob p {
+  margin: 40px 0px;
+}
+#mob p a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(38, 37, 126);
+}
