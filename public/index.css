@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 #main::before {
   content: "";
@@ -200,4 +201,42 @@ td {
 
 #mob {
   display: none;
+}
+
+.weather {
+  height: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgb(68, 68, 209), rgb(139, 139, 221));
+  font-size: 1.2rem;
+  color: aliceblue;
+}
+
+.location,
+.temp {
+  display: flex;
+  height: 170px;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temp {
+  flex-direction: column;
+}
+
+.deg-sec {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.deg-sec span {
+  margin-left: 10px;
+  font-size: 1.8rem;
+}
+#icon {
+  height: 130px;
 }

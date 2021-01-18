@@ -1,7 +1,6 @@
 {
   "name": "ak",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1"
@@ -15,5 +14,14 @@
     "node": "10.15.1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush122333/resume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayush122333/resume/issues"
+  },
+  "homepage": "https://github.com/ayush122333/resume#readme",
+  "description": ""
 }
