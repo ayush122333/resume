@@ -210,7 +210,7 @@ td {
   flex-direction: column;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(rgb(68, 68, 209), rgb(139, 139, 221));
+  background: linear-gradient(rgb(45, 45, 66), rgb(128 128 223));
   font-size: 1.2rem;
   color: aliceblue;
 }
@@ -239,4 +239,8 @@ td {
 }
 #icon {
   height: 130px;
+}
+
+.description {
+  font-size: 1.8rem;
 }

@@ -27,8 +27,16 @@ window.addEventListener('load', () => {
 
                 deg.innerHTML = tempVal;
                 desc.innerHTML = descVal;
-                document.getElementById("icon").src = `http://openweathermap.org/img/wn/${iconVal}@2x.png`;
+                //document.getElementById("icon").src = `http://openweathermap.org/img/wn/${iconVal}@2x.png`;
                 locName.innerHTML = nameVal;
+
+                if(iconVal === '50d')
+                {
+                    document.getElementById("icon").src = "https://svgshare.com/i/GPJ.svg";
+                    document.getElementById("icon").style = 'height:70px';
+                }else{
+                    document.getElementById("icon").src = `http://openweathermap.org/img/wn/${iconVal}@2x.png`;
+                }
             });
         });
     }
