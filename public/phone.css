@@ -44,8 +44,12 @@
   padding: 65px 20px 0px 0px;
   font-size: 1rem;
 }
-#certi img {
+.certi {
   height: 224px;
+  width: 300px;
+}
+.certi-2 {
+  height: 330px;
   width: 300px;
 }
 
